@@ -10,7 +10,7 @@
 5. Create similar folder stucture locally (docker/app/app)
 6. CD into the app folder
 7. run docker build -t "docker/app:App_v0.1" .
-8. run -d -p 5000:5000 docker/app:App10
+8. run -d -p 5000:5000 docker/app:App_v0.1
 9. open browser and go to http://0.0.0.0:5000/ to test your app
 10. If everything works, we want to publish the container to dockerhub with the following command: docker push "docker/app:App_v0.1"
 11. Go to http://portal.azure.com
@@ -18,5 +18,5 @@
 13. Search and click "Web app for containers"
 14. Go to container settings and input credentials to your dockerhub, and input the path and startup file (App.py)
 15. Go to overview and start your Web App.
-16. In overview you can find the link to the web app, which will be https://<nameOfApp>.azurewebsites.net
+16. In overview you can find the link to the web app, which will be https://[nameOfApp].azurewebsites.net
 17. Open browser and navigate to your app
