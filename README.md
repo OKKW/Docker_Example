@@ -18,5 +18,5 @@
 13. Search and click "Web app for containers"
 14. Go to container settings and input credentials to your dockerhub, and input the path and startup file (App.py)
 15. Go to overview and start your Web App.
-16. In overview you can find the link to the web app, which will be https://<nameOfApp>.azurewebsites.net
+16. In overview you can find the link to the web app, which will be https://[nameOfApp].azurewebsites.net
 17. Open browser and navigate to your app
