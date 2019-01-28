@@ -10,7 +10,7 @@
 5. Create similar folder stucture locally (docker/app/app)
 6. CD into the app folder
 7. run docker build -t "docker/app:App_v0.1" .
-8. run -d -p 5000:5000 docker/app:App10
+8. run -d -p 5000:5000 docker/app:App_v0.1
 9. open browser and go to http://0.0.0.0:5000/ to test your app
 10. If everything works, we want to publish the container to dockerhub with the following command: docker push "docker/app:App_v0.1"
 11. Go to http://portal.azure.com
